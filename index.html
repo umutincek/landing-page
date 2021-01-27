@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programlama Eğitimleri</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript, Vue, React">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1>Landing Page</h1>
+                <ul>
+                    <li>
+                        <a href="#home">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="#training">Eğitimler</a>
+                    </li>
+                    <li>
+                        <a href="#courses">Kurslar</a>
+                    </li>
+                    <li>
+                        <a href="#contact">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="image/profile.jpg" alt="Profile">
+        <div class="name text-center">
+            <h2 class="h-big">Instructor</h2>
+            <p>Computer Engineer | HTML, CSS, JavaScript...</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center h-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, ipsa qui quis, eum maiores perspiciatis illum ut reiciendis at rem velit doloremque omnis quam magni quod sint explicabo magnam aspernatur.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online İçerikler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, ipsa qui quis, eum maiores perspiciatis illum ut reiciendis at rem velit doloremque omnis quam magni quod sint explicabo magnam aspernatur.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, ipsa qui quis, eum maiores perspiciatis illum ut reiciendis at rem velit doloremque omnis quam magni quod sint explicabo magnam aspernatur.</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="text-center h-medium">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="image/html-css.jpg" alt="HTML&CSS">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Modern Web Geliştirme Kursu 
+                        </div>
+                        <div class="description">
+                            Modern Web Geliştirme Kursu | Sıfırdan Sektörün Yükseklerine 
+                        </div>
+                        <div class="instructor">
+                            Mustafa Murat Coşkun, Engin Demiroğ
+                        </div>
+                        <div class="rating">
+                            4.5 | (4513 Oylama)
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="image/js.jpg" alt="JS">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            JavaScript & Node.JS
+                        </div>
+                        <div class="description">
+                            JavaScript & Node.JS | Sıfırdan Her Yönüyle
+                        </div>
+                        <div class="instructor">
+                            Mehmet Seven
+                        </div>
+                        <div class="rating">
+                            4.2 | (1360 Oylama)
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="image/vue.jpg" alt="VUE">
+                        <span>%90 indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Vue.JS Eğitimi
+                        </div>
+                        <div class="description">
+                            Vue.JS Eğitimi ve Uygulama Geliştirme | Sıfırdan Her Yönüyle 
+                        </div>
+                        <div class="instructor">
+                            Gökhan Kandemir
+                        </div>
+                        <div class="rating">
+                            4.8 | (1702 Oylama)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center h-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="name">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
